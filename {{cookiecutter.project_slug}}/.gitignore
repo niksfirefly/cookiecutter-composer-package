@@ -1,3 +1,6 @@
+# Project
+# Add project specifix excludes here
+
 # Composer
 composer.phar
 /vendor/
