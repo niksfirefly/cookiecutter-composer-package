@@ -15,7 +15,16 @@ pip install cookiecutter
 
 === 2. Create a new project
 
+For the first time:
+
 [source,sh]
 ----
 cookiecutter https://github.com/devidw/cookiecutter-composer-package.git
+----
+
+Afterwards:
+
+[source,sh]
+----
+cookiecutter cookiecutter-composer-package
 ----
