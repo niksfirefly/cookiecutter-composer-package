@@ -1,4 +1,4 @@
-= {{ cookiecutter.name }}
+= {{ cookiecutter.project_name }}
 :author: {{cookiecutter.full_name}}
 :email: {{cookiecutter.email}}
 
@@ -6,7 +6,7 @@
 
 
 == Installation
-Install _{{ cookiecutter.name }}_ with https://getcomposer.org[Composer]:
+Install _{{ cookiecutter.project_name }}_ with https://getcomposer.org[Composer]:
 
 [source,sh]
 ----
