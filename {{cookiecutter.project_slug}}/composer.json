@@ -17,7 +17,7 @@
         "php": "^8.0"
     },
     "require-dev": {
-        "symfony/var-dumper": "dev-master",
-        "phpunit/phpunit": "dev-master"
+        "phpunit/phpunit": "^9.5",
+        "symfony/var-dumper": "^6.0"
     }
 }
