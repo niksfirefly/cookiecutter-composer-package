@@ -17,5 +17,5 @@ pip install cookiecutter
 
 [source,sh]
 ----
-cookiecutter https://github.com/devidw/cookiecutter-composer-package
+cookiecutter https://github.com/devidw/cookiecutter-composer-package.git
 ----
