@@ -1,0 +1,23 @@
+{
+    "name": "{{ cookiecutter.github_username }}/{{ cookiecutter.project_slug }}",
+    "description": "{{ cookiecutter.project_short_description }}",
+    "license": "{{ cookiecutter.open_source_license }}",
+    "authors": [
+        {
+            "name": "{{ cookiecutter.full_name }}",
+            "email": "{{ cookiecutter.email }}"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "{{ cookiecutter.github_username.capitalize() }}\\{{ cookiecutter.project_name.capitalize().replace(' ', '') }}\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^8.0"
+    },
+    "require-dev": {
+        "symfony/var-dumper": "dev-master",
+        "phpunit/phpunit": "dev-master"
+    }
+}

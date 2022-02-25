@@ -1,0 +1,26 @@
+= {{ cookiecutter.name }}
+:author: {{cookiecutter.full_name}}
+:email: {{cookiecutter.email}}
+
+{{ cookiecutter.project_short_description }}
+
+
+== Installation
+Install _{{ cookiecutter.name }}_ with https://getcomposer.org[Composer]:
+
+[source,sh]
+----
+composer require {{ cookiecutter.github_username }}/{{ cookiecutter.project_slug }} --dev
+----
+
+
+== Usage
+
+[source,php]
+----
+<?php
+
+require_once __DIR__ . '/vendor/autoload.php';
+
+// ...
+----
