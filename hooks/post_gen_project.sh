@@ -1,4 +1,4 @@
 #!/bin/bash
 
 git init
-composer install
+#composer install
