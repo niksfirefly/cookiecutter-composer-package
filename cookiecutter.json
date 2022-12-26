@@ -1,7 +1,7 @@
 {
-    "full_name": "David Wolf",
-    "email": "david@wolf.gdn",
-    "github_username": "devidw",
+    "full_name": "Mac Jac",
+    "email": "niks@",
+    "github_username": "nx",
     "project_name": "Composer Boilerplate",
     "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '-') }}",
     "project_short_description": "Composer Boilerplate contains all the boilerplate you need to create a Composer package.",
